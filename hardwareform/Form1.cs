@@ -25,9 +25,8 @@ namespace hardwareform
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            StreamWriter File = new StreamWriter("Data.txt");
-            label1.Text = "CPU:" + " " + (int)perfcpu.NextValue() + " " + "%";
             string cpu = "CPU:" + " " + (int)perfcpu.NextValue() + " " + "%";
+            StreamWriter File = new StreamWriter("Data.txt");
             File.Write(cpu);
             File.Close();
                             
