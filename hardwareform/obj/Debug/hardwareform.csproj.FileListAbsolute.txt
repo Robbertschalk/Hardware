@@ -1,0 +1,10 @@
+E:\Dashboard\C#\New folder\Hardware form\hardwareform\hardwareform\bin\Debug\hardwareform.exe.config
+E:\Dashboard\C#\New folder\Hardware form\hardwareform\hardwareform\bin\Debug\hardwareform.exe
+E:\Dashboard\C#\New folder\Hardware form\hardwareform\hardwareform\bin\Debug\hardwareform.pdb
+E:\Dashboard\C#\New folder\Hardware form\hardwareform\hardwareform\obj\Debug\hardwareform.csprojAssemblyReference.cache
+E:\Dashboard\C#\New folder\Hardware form\hardwareform\hardwareform\obj\Debug\hardwareform.Form1.resources
+E:\Dashboard\C#\New folder\Hardware form\hardwareform\hardwareform\obj\Debug\hardwareform.Properties.Resources.resources
+E:\Dashboard\C#\New folder\Hardware form\hardwareform\hardwareform\obj\Debug\hardwareform.csproj.GenerateResource.cache
+E:\Dashboard\C#\New folder\Hardware form\hardwareform\hardwareform\obj\Debug\hardwareform.csproj.CoreCompileInputs.cache
+E:\Dashboard\C#\New folder\Hardware form\hardwareform\hardwareform\obj\Debug\hardwareform.exe
+E:\Dashboard\C#\New folder\Hardware form\hardwareform\hardwareform\obj\Debug\hardwareform.pdb
