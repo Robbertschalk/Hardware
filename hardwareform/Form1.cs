@@ -25,23 +25,13 @@ namespace hardwareform
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-
-            bool pc_check = true;            
-
-            if (pc_check == true)
-            {
-                StreamWriter File = new StreamWriter("Data.txt");
-                StreamWriter File2 = new StreamWriter("Online_check.txt");
-                pc_status.Text = "Online!";
-                label1.Text = "CPU:" + " " + (int)perfcpu.NextValue() + " " + "%";
-                string cpu = "CPU:" + " " + (int)perfcpu.NextValue() + " " + "%";
-                
-                File2.Write(pc_status);
-                File.Write(cpu);
-                File.Close();
-            }
-                    
-           
+            StreamWriter File = new StreamWriter("Data.txt");
+            label1.Text = "CPU:" + " " + (int)perfcpu.NextValue() + " " + "%";
+            string cpu = "CPU:" + " " + (int)perfcpu.NextValue() + " " + "%";
+            File.Write(cpu);
+            File.Close();
+                            
+                                        
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -50,6 +40,11 @@ namespace hardwareform
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }

@@ -31,8 +31,6 @@
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.label2 = new System.Windows.Forms.Label();
-            this.pc_status = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -52,37 +50,15 @@
             this.timer1.Interval = 600;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 55);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(215, 46);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "PC status: ";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // pc_status
-            // 
-            this.pc_status.AutoSize = true;
-            this.pc_status.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pc_status.Location = new System.Drawing.Point(205, 55);
-            this.pc_status.Name = "pc_status";
-            this.pc_status.Size = new System.Drawing.Size(53, 46);
-            this.pc_status.TabIndex = 4;
-            this.pc_status.Text = "...";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(493, 300);
-            this.Controls.Add(this.pc_status);
-            this.Controls.Add(this.label2);
+            this.ClientSize = new System.Drawing.Size(503, 241);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -91,8 +67,6 @@
         #endregion
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label pc_status;
     }
 }
 
